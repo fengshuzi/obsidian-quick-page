@@ -1,0 +1,9 @@
+{
+  "id": "quick-page-creator",
+  "name": "Quick Page Creator",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "快速在 pages 目录下创建时间戳命名的笔记",
+  "author": "Your Name",
+  "isDesktopOnly": false
+}
