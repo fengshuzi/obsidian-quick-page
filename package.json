@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-quick-page-creator",
+  "name": "quick-page",
   "version": "1.0.0",
-  "description": "快速在 pages 目录下创建时间戳命名的笔记",
+  "description": "Quickly create timestamped notes in a specified folder.",
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
@@ -10,7 +10,7 @@
     "release": "node release.mjs"
   },
   "keywords": [],
-  "author": "",
+  "author": "lizhifeng",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.6",
