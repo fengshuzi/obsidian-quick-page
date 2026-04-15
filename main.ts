@@ -1,7 +1,7 @@
 import { Plugin, TFile } from 'obsidian';
 
 export default class QuickPageCreatorPlugin extends Plugin {
-  async onload() {
+  onload() {
     // 在左侧边栏添加图标按钮
     this.addRibbonIcon('plus-circle', '创建新页面', async () => {
       await this.createNewPage();
@@ -39,9 +39,9 @@ export default class QuickPageCreatorPlugin extends Plugin {
 
       // 检查文件是否已存在
       const existingFile = this.app.vault.getAbstractFileByPath(filePath);
-      if (existingFile) {
+      if (existingFile instanceof TFile) {
         // 如果文件已存在，打开它
-        await this.app.workspace.getLeaf().openFile(existingFile as TFile);
+        await this.app.workspace.getLeaf().openFile(existingFile);
         return;
       }
 
