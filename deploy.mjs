@@ -17,27 +17,27 @@ const NOTE_DEMO_PATH = join(
 const vaults = [
   {
     name: 'Mobile',
-    path: join(BASE_PATH, '.obsidian-mobile/plugins/quick-page-creator')
+    path: join(BASE_PATH, '.obsidian-mobile/plugins/quick-page')
   },
   {
     name: 'Pro',
-    path: join(BASE_PATH, '.obsidian-pro/plugins/quick-page-creator')
+    path: join(BASE_PATH, '.obsidian-pro/plugins/quick-page')
   },
   {
     name: 'iPad',
-    path: join(BASE_PATH, '.obsidian-ipad/plugins/quick-page-creator')
+    path: join(BASE_PATH, '.obsidian-ipad/plugins/quick-page')
   },
   {
     name: '2017',
-    path: join(BASE_PATH, '.obsidian-2017/plugins/quick-page-creator')
+    path: join(BASE_PATH, '.obsidian-2017/plugins/quick-page')
   },
   {
     name: 'Zhang',
-    path: join(BASE_PATH, '.obsidian-zhang/plugins/quick-page-creator')
+    path: join(BASE_PATH, '.obsidian-zhang/plugins/quick-page')
   },
   {
     name: 'Note-Demo',
-    path: join(NOTE_DEMO_PATH, '.obsidian/plugins/quick-page-creator')
+    path: join(NOTE_DEMO_PATH, '.obsidian/plugins/quick-page')
   }
 ];
 
